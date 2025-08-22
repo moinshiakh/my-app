@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# ✈️ Google Flights Clone (React & Bootstrap)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive web application simulating a simplified Google Flights interface, built with React and styled using Bootstrap for a professional and modern look. This project demonstrates front-end development, state management, and an updated mock API integration.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+* [About the Project](#about-the-project)
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+* [Getting Started](#getting-started)
+    * [Prerequisites](#prerequisites)
+    * [Installation](#installation)
+    * [Running the Application](#running-the-application)
+* [API Integration (Important!)](#api-integration-important)
+* [Project Structure](#project-structure)
+* [Contributing](#contributing)
+* [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## About the Project
 
-### `npm test`
+This project aims to create a user-friendly and responsive flight search interface, mimicking the look and feel of Google Flights. The application currently fetches simulated flight data through a RapidAPI endpoint, demonstrating how to integrate and use an external API with dynamic parameters for a more interactive user experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* **Responsive Design**: Optimized for various screen sizes, from mobile phones to desktop monitors, using Bootstrap's powerful grid system.
+* **Intuitive Search Form**: Easy-to-use input fields for origin, destination, departure/return dates, number of passengers, and flight class.
+* **Dynamic Search Parameters**: **Passengers** and **Flight Class** inputs from the UI now directly influence the API call parameters.
+* **Dynamic Search Results**: Displays a list of available flights with key details like airline, flight number, times, duration, and price, parsed from the (mock) API response.
+* **Professional UI**: Styled with Bootstrap to ensure a clean, modern, and professional aesthetic, including subtle animations and interactive elements.
+* **Bootstrap Icons**: Leverages Bootstrap Icons for crisp, scalable vector graphics throughout the application.
+* **Loading & Error States**: Provides visual feedback during data fetching and gracefully handles errors.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+* **React**: A JavaScript library for building user interfaces.
+* **Bootstrap 5.3**: The popular CSS framework for responsive design and UI components.
+* **Bootstrap Icons 1.11**: A comprehensive SVG icon library designed to work perfectly with Bootstrap.
+* **JavaScript (ES6+)**: Core programming language.
+* **HTML5 & CSS3**: Standard web technologies.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# or
+# yarn start
